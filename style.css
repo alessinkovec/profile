@@ -1,0 +1,125 @@
+body {
+  background: #DB2763;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 16px;
+  font-weight: 300;
+  color: #273043;
+  line-height: 1.2em;
+  display: block;
+  margin: 10px;
+  text-align: justify;
+}
+
+h1 {
+  font-family: 'Libre Barcode 128 Text', cursive;
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+p {
+  line-height: 1.1em;
+  text-align: center;
+}
+
+td {
+  vertical-align: middle;
+  padding: 10px;
+  text-align: center;
+}
+
+a{
+  color: #273043;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #DB2763;
+  text-decoration: none;
+}
+
+#barcode {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#barcode:hover {
+  background-color: #DB2763;
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+  background-color: rgb(245 245 245);
+  border-radius: 5px;
+  padding: 30px;
+  margin-bottom: 15px;
+  box-shadow: 5px 5px 5px rgba(130, 130, 130, 0.9);
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+#img-main {
+  border: 4px solid #273043;
+}
+
+.img-border {
+  border-radius: 5px;
+  box-shadow: 3px 3px 3px rgba(130, 130, 130, 0.9);
+}
+
+.btn-blue {
+  background-color: #273043;
+  color: white;
+  font-family: 'Libre Barcode 128 Text', cursive;
+  font-size: 40px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.list-inline {
+  padding-left: 67px;
+}
+.list-inline li {
+  display: inline-block;
+  letter-spacing: 80;
+
+}
+.list-inline li i{
+  font-size: 35px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
